@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Button Click Example</title>
     <style>
         body {
@@ -15,6 +14,7 @@
             background-color: #f0f2f5;
             margin: 0;
             text-align: center;
+            color: #000000;
         }
 
         h1, h2 {
@@ -52,12 +52,14 @@
     <h1>#RAPEPACKGOD</h1>
     <h2>nigga chain leak </h2>
     <p>GOLD GOLD GOLD GOLD</p>
+    <a href="https://www.youtube.com/watch?v=H0o3yXWzMzM">jutub 100 igazi tutorial</a>
 
     <div class="output" id="button1Output">am lowk bout to nuhh~ </div>
     <div class="output" id="button2Output">nigga means love, i love everybody gang gang fuck bitches get money, nigga chicken niggaaaaaa</div>
     
     <button onclick="buttonClicked()">semen ammount</button>
     <button onclick="button2Clicked()">dihh vein ammount</button>
+    <button class="reset-button" onclick="resetCounters()">fortnite on foenem</button>
 
     <script>
         let numButton1Clicks = 0;
@@ -74,6 +76,13 @@
             document.getElementById("button2Output").textContent =
                 "veiny ammount: " + numButton2Clicks ;
         }
+          function resetCounters() {
+            numButton1Clicks = 0;
+            numButton2Clicks = 0;
+            document.getElementById("button1Output").textContent = "semen ammount";
+            document.getElementById("button2Output").textContent = "nigga means love, i love everybody gang gang fuck bitches get money, nigga chicken niggaaaaaa";
+        }
     </script>
 </body>
 </html>
+
